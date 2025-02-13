@@ -1,6 +1,6 @@
 # Image Masking and Annotation Tool
 
-This project provides tools for applying masks and annotations to images using Python and OpenCV. The main scripts are `prepare-labeling.py` and `0pixel_ver0.3.py`.
+This project provides tools for applying masks and annotations to images using Python and OpenCV. The main scripts are `0pixel_ver0.3.py` and `prepare-labeling.py`.
 
 ## Features
 
@@ -17,9 +17,23 @@ This project provides tools for applying masks and annotations to images using P
 
 Install the required packages using pip:
 
+```
 pip install opencv-python numpy matplotlib
+```
 
 ## Usage
+
+### 0pixel_ver0.3.py
+
+- **Load Annotations**: Load existing annotations from JSON files.
+- **Draw Shapes**: Draw rectangles and polygons based on annotations.
+- **Zoom and Pan**: Use mouse scroll to zoom and drag to pan.
+
+Run the script:
+
+```
+python 0pixel_ver0.3.py
+```
 
 ### prepare-labeling.py
 
@@ -33,18 +47,6 @@ Run the script:
 
 ```
 python prepare-labeling.py
-```
-
-### 0pixel_ver0.3.py
-
-- **Load Annotations**: Load existing annotations from JSON files.
-- **Draw Shapes**: Draw rectangles and polygons based on annotations.
-- **Zoom and Pan**: Use mouse scroll to zoom and drag to pan.
-
-Run the script:
-
-```
-python 0pixel_ver0.3.py
 ```
 
 ## Directory Structure
@@ -66,7 +68,7 @@ This project is licensed under the MIT License.
 
 # 이미지 마스킹 및 주석 도구
 
-이 프로젝트는 Python과 OpenCV를 사용하여 이미지에 마스크와 주석을 적용할 수 있는 도구를 제공합니다. 주요 스크립트는 `prepare-labeling.py`와 `0pixel_ver0.3.py`입니다.
+이 프로젝트는 Python과 OpenCV를 사용하여 이미지에 마스크와 주석을 적용할 수 있는 도구를 제공합니다. 주요 스크립트는 `0pixel_ver0.3.py`와 `prepare-labeling.py`입니다.
 
 ## 기능
 
@@ -89,6 +91,18 @@ pip install opencv-python numpy matplotlib
 
 ## 사용법
 
+### 0pixel_ver0.3.py
+
+- **주석 불러오기**: JSON 파일에서 기존 주석 불러오기
+- **도형 그리기**: 주석을 기반으로 사각형과 폴리곤 그리기
+- **확대 및 이동**: 마우스 스크롤로 확대하고 드래그하여 이동
+
+스크립트 실행:
+
+```
+python 0pixel_ver0.3.py
+```
+
 ### prepare-labeling.py
 
 - **폴리곤 그리기**: 클릭하여 점을 생성하고 폴리곤을 형성
@@ -101,18 +115,6 @@ pip install opencv-python numpy matplotlib
 
 ```
 python prepare-labeling.py
-```
-
-### 0pixel_ver0.3.py
-
-- **주석 불러오기**: JSON 파일에서 기존 주석 불러오기
-- **도형 그리기**: 주석을 기반으로 사각형과 폴리곤 그리기
-- **확대 및 이동**: 마우스 스크롤로 확대하고 드래그하여 이동
-
-스크립트 실행:
-
-```
-python 0pixel_ver0.3.py
 ```
 
 ## 디렉토리 구조
